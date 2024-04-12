@@ -1,16 +1,6 @@
 # Codecrafters-p1
-<<<<<<< HEAD
-<<<<<<< HEAD
+* Colaborador: Gioko 1
+* colaboradora: Deisy 
+* Colaborador: Hector
+* Colaborador: David
 
-Colaborador:David
-colaboradora: deisy
-=======
-## Colaborador: Gioko 1
-## colaboradora: deisy 
-## Hector
->>>>>>> main
-=======
-## Colaborador: Gioko 1
-## colaboradora: deisy 
-## Hector
->>>>>>> main

@@ -3,4 +3,5 @@
 * colaboradora: Deisy 
 * Colaborador: Hector
 * Colaborador: David
+* Colaborador: Erick
 

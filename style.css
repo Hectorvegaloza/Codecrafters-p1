@@ -1,0 +1,136 @@
+
+*::before,
+*::after {box-sizing: border-box;}
+
+.imagen{width: 300px;
+height: 200px;}
+
+.fondo{  
+z-index: 1;}
+.container {
+  background-image:url(inicio.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3%;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1.3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Imagen Imagen textos textos textos . ."
+      "Imagen Imagen textos textos textos . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."; 
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+.h2{display: flex;
+justify-self: center;
+}
+
+  
+  
+  .imagen2{width: 300px;
+height: 200px;}
+  .container2 {
+    background-color: aqua;
+    margin: 3%;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1.3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Imagen Imagen textos textos textos . ."
+      "Imagen Imagen textos textos textos . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . . . . . ."; 
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .container3{background-color:white;}
+  .imagen3{width: 300px;
+  height: 200px;}
+    .container3 {
+      margin: 3%;
+      display: grid; 
+      grid-auto-columns: 1fr; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1.3fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "Imagen Imagen textos textos textos . ."
+        "Imagen Imagen textos textos textos . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."; 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container4{background-color: aqua;}
+  .imagen4{width: 300px;
+  height: 200px;}
+    .container4 {
+      margin: 3%;
+      display: grid; 
+      grid-auto-columns: 1fr; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1.3fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "Imagen Imagen textos textos textos . ."
+        "Imagen Imagen textos textos textos . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."; 
+        display: flex;
+        flex-direction: row-reverse;
+
+        
+    }
+    
+    .container5{background-color: aqua;}
+    .imagen5{width: 250px;
+    height: 200px;}
+      .container5 {
+        margin: 3%;
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1.3fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "Imagen Imagen textos textos textos . ."
+          "Imagen Imagen textos textos textos . ."
+          ". . . . . . ."
+          ". . . . . . ."
+          ". . . . . . ."
+          ". . . . . . ."
+          ". . . . . . ."
+          ". . . . . . ."; 
+          display: flex;
+          flex-direction: row;
+      }
+      .p {font-size: x-large;
+        position: relative;
+        left: 14px;
+      }
+      .p1{display: block;}

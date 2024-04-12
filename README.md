@@ -1,4 +1,6 @@
 # Codecrafters-p1
-## Colaborador: Gioko 1
-## colaboradora: deisy 
-## Hector
+* Colaborador: Gioko 1
+* colaboradora: Deisy 
+* Colaborador: Hector
+* Colaborador: David
+

@@ -2,16 +2,28 @@
 *::before,
 *::after {box-sizing: border-box;}
 
+.body{background-color: #E6CB55  ;}
+
 .imagen{width: 300px;
 height: 200px;}
+.p{color: #442913;}
 
 .fondo{  
 z-index: 1;}
-.container {
+
+.section{display: flex;
+justify-content: center;}
+
+.h2{display: flex;
+  justify-content: center;}
+
+.container { 
+
   background-image:url(inicio.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 3%;
+  height: 300px;
     display: grid; 
     grid-auto-columns: 1fr; 
     grid-template-columns: 1fr; 
@@ -36,101 +48,48 @@ justify-self: center;
 
   
   
-  .imagen2{width: 300px;
-height: 200px;}
-  .container2 {
-    background-color: aqua;
-    margin: 3%;
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr; 
-    grid-template-rows: 1.3fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "Imagen Imagen textos textos textos . ."
-      "Imagen Imagen textos textos textos . ."
-      ". . . . . . ."
-      ". . . . . . ."
-      ". . . . . . ."
-      ". . . . . . ."
-      ". . . . . . ."
-      ". . . . . . ."; 
-      display: flex;
-      flex-direction: row-reverse;
+  
+
+.imagen2{  width: 300px;
+    height: 200px;
+  
+}
+  
+.container2 {
+   text-align: center;
+  margin: 50px;
+  background-color: #c09b7d;
   }
 
-  .container3{background-color:white;}
   .imagen3{width: 300px;
   height: 200px;}
     .container3 {
-      margin: 3%;
-      display: grid; 
-      grid-auto-columns: 1fr; 
-      grid-template-columns: 1fr; 
-      grid-template-rows: 1.3fr; 
-      gap: 0px 0px; 
-      grid-template-areas: 
-        "Imagen Imagen textos textos textos . ."
-        "Imagen Imagen textos textos textos . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."; 
-        display: flex;
-        flex-direction: row;
-    }
+      text-align: center;
+  margin: 60px;
+   }
 
-    .container4{background-color: aqua;}
+    
   .imagen4{width: 300px;
   height: 200px;}
     .container4 {
-      margin: 3%;
-      display: grid; 
-      grid-auto-columns: 1fr; 
-      grid-template-columns: 1fr; 
-      grid-template-rows: 1.3fr; 
-      gap: 0px 0px; 
-      grid-template-areas: 
-        "Imagen Imagen textos textos textos . ."
-        "Imagen Imagen textos textos textos . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."
-        ". . . . . . ."; 
-        display: flex;
-        flex-direction: row-reverse;
-
-        
+      text-align: center;
+      margin: 50px;
+     background-color: #c09b7d;        
     }
     
-    .container5{background-color: aqua;}
+    .container5{background-color: #c09b7d;}
     .imagen5{width: 250px;
-    height: 200px;}
+    height: 200px;
+  }
       .container5 {
-        margin: 3%;
-        display: grid; 
-        grid-auto-columns: 1fr; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1.3fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "Imagen Imagen textos textos textos . ."
-          "Imagen Imagen textos textos textos . ."
-          ". . . . . . ."
-          ". . . . . . ."
-          ". . . . . . ."
-          ". . . . . . ."
-          ". . . . . . ."
-          ". . . . . . ."; 
-          display: flex;
-          flex-direction: row;
-      }
+       text-align: center;
+        margin: 50px;
+         }
+     
+      
       .p {font-size: x-large;
         position: relative;
         left: 14px;
       }
       .p1{display: block;}
+      .strong{font-size: large;}

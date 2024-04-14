@@ -17,6 +17,8 @@ justify-content: center;}
 .h2{display: flex;
   justify-content: center;}
 
+
+
 .container { 
 
   background-image:url(inicio.jpeg);
@@ -93,3 +95,5 @@ justify-self: center;
       }
       .p1{display: block;}
       .strong{font-size: large;}
+
+   

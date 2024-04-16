@@ -264,7 +264,7 @@ header{
 }
 
 .colortext2{
-    color:rgb(249, 235, 110);    
+    color:rgb(255, 255, 255);    
 }
 .colortext3{
     color:rgb(204, 191, 9);    
@@ -304,7 +304,7 @@ header{
     display:flex;
     justify-content:center ;
     margin-top: 30px;
-    background-image: url("/servicios.png"); width: 100% ;height: 100%;
+    background-image: url("./servicios.png"); width: 100% ;height: 100%;
     background-repeat: no-repeat;background-size: cover;
 }
 

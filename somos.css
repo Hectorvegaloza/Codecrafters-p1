@@ -258,11 +258,11 @@ text-decoration: none;
 
    }
  .pethouse {
-   font-size: 40px;
+   font-size: 50px;
 }
 .logo{
-   width: 80px;
-   height: 80px;
+   width: 100px;
+   height: 100px;
 }
 .text{
    font-size: 40px;
@@ -415,3 +415,4 @@ text-decoration: none;
    height: auto;
   }
 }
+

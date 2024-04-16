@@ -3,7 +3,7 @@
 *::after {box-sizing: border-box;}
 
 
-.body{background-color: #E6CB55 ;
+.body{background-color: white ;
   }
 
 .imagen{width: 300px;
@@ -71,7 +71,7 @@ justify-self: center;
 .container2 {
    text-align: center;
   margin: 50px;
-  background-color: #c09b7d;
+  background-color: #E6CB55;
   font-size: xx-large;
   
   }
@@ -92,7 +92,7 @@ justify-self: center;
     .container4 {
       text-align: center;
       margin: 50px;
-     background-color: #c09b7d;   
+     background-color: #E6CB55;   
      font-size: xx-large;     
     }
     

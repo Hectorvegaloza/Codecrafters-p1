@@ -25,6 +25,8 @@
  }
  .pethouse{
    font-size: 50px;
+   font-weight: bold;
+   unicode-bidi: isolate;
  }
  
  .header a {
@@ -119,14 +121,16 @@
  
     }
 
+
+
  @media (width <= 875px) {
    
     .pethouse {
       font-size: 30px;
    }
    .logo{
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
    }
    .compa{
       width: 50px;
@@ -309,6 +313,7 @@ h2{
     margin-top: 30px;
     justify-content: center;
     display: flex;
+    font-weight: bold;
     
 }
 

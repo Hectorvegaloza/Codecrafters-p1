@@ -324,8 +324,8 @@ justify-self: center;
     font-size: 30px;
  }
  .logo{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
  }
 }
 @media (max-width:767px) and (min-width:260px) {

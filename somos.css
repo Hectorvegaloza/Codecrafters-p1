@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Distressed&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-   font-family: "Fira Sans" sans-serif;
-   margin:0; padding:0;
-   box-sizing: border-box;
-   outline: none; border:none;
-   text-decoration: none;
-   transition: .2s linear;
+
+
+p{
+   font-size: 18px;
+   text-align: justify;
 }
+
 
 
 .header {
@@ -27,8 +25,10 @@
  }
  .pethouse{
    font-size: 50px;
+   font-weight: bold;
+   unicode-bidi: isolate;
  }
- 
+
  .header a {
     color: #b9a1a4;
     text-decoration: none;
@@ -51,12 +51,12 @@
     background-color:#b39a86;
     transform: translateY(0);
     position:absolute;
-    margin-top: 100px;
+    margin-top: 145px;
     font-size: 20px;
     height: auto;
    }
    .botonhamburquesa{
-      font-size: 38px;
+      font-size: 30px;
       margin: 20px;
     
     
@@ -80,6 +80,7 @@
      display: none;
      z-index: 2;
   }
+  
   nav {
    position: absolute;
    transform: translateY(-100%);
@@ -120,6 +121,10 @@
     background:#dbd9d2; 
  
     }
+
+
+
+    
     .imagen-total{
       margin-top: 200px;
       width: 100%;
@@ -222,7 +227,7 @@ footer h4{
 }
 .redessociales a{
 color: #451d22;
-font-size: 24px;
+font-size: 15px;
 transition:color 0.3s ease;
 text-decoration: none;
 }
@@ -237,117 +242,180 @@ text-decoration: none;
    text-align: center;
 }
 
-   @media (width >= 912px) {
-      body{
-         background-color: #451d22;
-      }
-    .imagen-total{
-      max-width: 100%;
-    object-fit: cover;
-    height: 900px;
-     
-    } 
-    div.quienessomos h2{
-      font-size: 40px;
-    }
-    .pethouse {
-      font-size: 40px;
+@media (width >= 912px) {
+   body{
+      background-color: #451d22;
    }
-   .logo{
-      width: 80px;
-      height: 80px;
-   }
-   .text{
-      font-size: 40px;
-   }
-   .imgenperros{
-     
-      width:180px;
-      height:180px;
-      object-fit: contain;
+ .imagen-total{
+   max-width: 100%;
+ object-fit: cover;
+ height: 900px;
+  
+ } 
+ .imagen-total .quienessomos h2{
+   font-size: 36px;
+   margin: 0;
 
    }
-   .imgenperros img{
-      width: 100%;
+ .pethouse {
+   font-size: 50px;
+}
+.logo{
+   width: 100px;
+   height: 100px;
+}
+.text{
+   font-size: 40px;
+}
+.imgenperros{
+  
+   width:180px;
+   height:180px;
+   object-fit: contain;
 
-   }
-  
-  
-   }
-     @media (max-width:767px) and (min-width:408px) {
-      .imagen-total{
-        width: 408px;
-      object-fit: cover;
-      height: 400px;
-       
-      } 
-      div.quienessomos h2{
-        font-size: 20px;
+}
+.imgenperros img{
+   width: 100%;
+
+}
+
+
+}
+@media (max-width:911px) and (min-width:768px) {
+   .imagen-total{
+    max-width: 100%;
+   object-fit: cover;
+   height: 400px;
+    
+   } 
+   .imagen-total .quienessomos h2{
+      font-size: 20px;
+      margin: 0;
+   
       }
-      .pethouse {
-        font-size: 30px;
-     }
-     .logo{
-        width: 100px;
-        height: 100px;
-     }
-     .text{
-        font-size: 20px;
-     }
-     .grids{
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-bottom: 40px;
-     }
-     .containerfooter{
-      flex-direction: column;
-      gap:40px;
-     }
-     .containerfooter h4{
+   .pethouse {
+     font-size: 30px;
+  }
+  .logo{
+     width: 100px;
+     height: 100px;
+  }
+  .text{
+     font-size: 20px;
+  }
+  .grids{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: 1fr 1fr ;
+   margin-bottom: 50px;
+}}
+  @media (max-width:767px) and (min-width:408px) {
+   .imagen-total{
+   max-width: 100%;
+   object-fit: cover;
+   height: 400px;
+    
+   } 
+   .imagen-total .quienessomos h2{
       font-size: 15px;
-     }
-     .footer-links{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-wrap: pretty;
-      align-items: center;
-     }
-     .footer-links h4{
-      width:60%;
-      text-align: center;
-     }
-     .logofooter img{
-       width: 100px;
-       height: 100px;
-     }
-     .containerfooter div{
-      height: auto;
-     }
-   }
-   @media (max-width:911px) and (min-width:768px) {
-      .imagen-total{
-        width: 768px;
-      object-fit: cover;
-      height: 400px;
-       
-      } 
-      div.quienessomos h2{
-        font-size: 20px;
+      margin: 0;
+   
       }
-      .pethouse {
-        font-size: 30px;
-     }
-     .logo{
-        width: 100px;
-        height: 100px;
-     }
-     .text{
-        font-size: 20px;
-     }
-     .grids{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      grid-template-rows: 1fr 1fr ;
-      margin-bottom: 50px;
-   }}
+   .pethouse {
+     font-size: 30px;
+  }
+  .logo{
+     width: 100px;
+     height: 100px;
+  }
+  .text{
+     font-size: 20px;
+  }
+  .grids{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin-bottom: 40px;
+  }
+  .containerfooter{
+   flex-direction: column;
+   gap:40px;
+  }
+  .containerfooter h4{
+   font-size: 15px;
+  }
+  .footer-links{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-wrap: pretty;
+   align-items: center;
+  }
+  .footer-links h4{
+   width:60%;
+   text-align: center;
+  }
+  .logofooter img{
+    width: 100px;
+    height: 100px;
+  }
+  .containerfooter div{
+   height: auto;
+  }
+}
+@media (max-width:407px) and (min-width:0px) {
+   .imagen-total{
+   max-width: 100%;
+   object-fit: cover;
+   height: 400px;
+    
+   } 
+   .imagen-total .quienessomos h2{
+      font-size: 15px;
+      margin: 0;
+   
+      }
+   .pethouse {
+     font-size: 30px;
+  }
+  .logo{
+     width: 100px;
+     height: 100px;
+  }
+  .text{
+     font-size: 20px;
+  }
+  .grids{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin-bottom: 40px;
+  }
+  .containerfooter{
+   flex-direction: column;
+   gap:40px;
+  }
+  .containerfooter h4{
+   font-size: 15px;
+  }
+  .footer-links{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-wrap: pretty;
+   align-items: center;
+  }
+  .footer-links h4{
+   width:60%;
+   text-align: center;
+  }
+  .logofooter img{
+    width: 100px;
+    height: 100px;
+  }
+  .containerfooter div{
+   height: auto;
+  }
+}
+p{
+   text-align: center;
+}
+

@@ -17,52 +17,50 @@
     right: 0;
     height: 160px;
     display: flex;
+    z-index: 100;
     
  }
  .header .titulo {
-    margin:auto;
-    text-align: center;
     color: #451d22;
  }
  .pethouse{
    font-size: 50px;
-   margin-left: 750px;
+   font-weight: bold;
+   unicode-bidi: isolate;
  }
  
  .header a {
     color: #b9a1a4;
     text-decoration: none;
  }
- .logo{
-   margin-right: 680px;
+ .nav-img{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
  }
+ 
  input:checked + nav {
     width: 110%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 50px;
+    gap: 10px;
     background-color:#b39a86;
     transform: translateY(0);
     position:absolute;
-    margin-top: 100px;
+    margin-top: 145px;
     font-size: 20px;
     height: auto;
    }
-   
-.botonhamburquesa{
-      font-size: 38px;
+   .botonhamburquesa{
+      font-size: 30px;
       margin: 20px;
     
+    
  }
- .nav-img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-  }
   
   label {
     position: absolute;
@@ -100,6 +98,10 @@
     margin: 0;
     padding: 0;
     list-style:none;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
     
  }
  .navigation ul li {
@@ -116,15 +118,19 @@
  }
  .navigation ul li a:hover {
     background:#dbd9d2; 
- }
+ 
+    }
+
+
+
  @media (width <= 875px) {
    
     .pethouse {
       font-size: 30px;
    }
    .logo{
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
    }
    .compa{
       width: 50px;
@@ -176,7 +182,7 @@ height: 190px;
 }
 .redessociales a{
 color: #451d22;
-font-size: 24px;
+font-size: 15px;
 transition:color 0.3s ease;
 text-decoration: none;
 }
@@ -227,7 +233,7 @@ body{
 
 
 .enlinea .huella li{
-    list-style-image: url("/css/huellitas.png");
+    list-style-image: url("./huellitas.png");
     margin-left: 80px;
   }
 
@@ -271,7 +277,7 @@ header{
     display:flex;
     justify-content:center ;
     margin-top: 30px;
-    background-image: url('/perritos.png'); width: 100% ;height: 100%;
+    background-image: url("./perritos.png"); width: 100% ;height: 100%;
     background-repeat: no-repeat;background-size: cover;
 }
 
@@ -281,7 +287,7 @@ header{
     display:flex;
     justify-content:center ;
     margin-top: 200px;
-    background-image: url('/oe.png'); width: 100% ;height: 80%;
+    background-image: url("./oe.png"); width: 100% ;height: 80%;
     background-repeat: no-repeat;background-size: cover;
 }
 
@@ -298,7 +304,7 @@ header{
     display:flex;
     justify-content:center ;
     margin-top: 30px;
-    background-image: url('/servicios.png'); width: 100% ;height: 100%;
+    background-image: url("./servicios.png"); width: 100% ;height: 100%;
     background-repeat: no-repeat;background-size: cover;
 }
 
@@ -307,6 +313,7 @@ h2{
     margin-top: 30px;
     justify-content: center;
     display: flex;
+    font-weight: bold;
     
 }
 
@@ -341,12 +348,6 @@ p{
     grid-column-gap: 20px ;
 }
 
-
-@keyframes cambiar{
-    0%{background-position: 0 50%;}
-    50%{background-position: 100% 50%;}
-    100%{background-position: 0 50%;}
-}
 
 
 
@@ -405,7 +406,6 @@ footer {
         display: flex;
         justify-content: left;
         font-size: 22px;
-        font-family: "Akaya Kanadaka", system-ui;
         padding: 6px 20px;
         z-index: -1;
     } 

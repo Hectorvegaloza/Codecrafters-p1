@@ -1,5 +1,5 @@
 :root {
-    font-family: "Poppins", sans-serif;
+    font-family: "Fira Sans" sans-serif;
 }
 
 footer{
@@ -15,6 +15,7 @@ footer h4{
 .footer-links a{
     color: #451d22;
     text-decoration: none;
+    padding-bottom: 200px;
 }
 .containerfooter{
     display: flex;
@@ -58,7 +59,7 @@ text-decoration: none;
 .copyright{
     text-align: center;
 }   
-@media (max-width:767px) and (min-width:408px) {
+@media (max-width:767px) and (min-width:260px) {
     .containerfooter{
         flex-direction: column;
         gap:40px;

@@ -1,0 +1,287 @@
+/*Fondo de la página*/
+body{
+    margin: 0;
+    background-color: white;
+    
+}
+
+/*Menu*/
+.header {
+    background: #E6CB55;
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 160px;
+    display: flex;
+    z-index: 100;
+    
+ }
+.header .titulo {
+    color: #451d22;
+ }
+ .pethouse{
+   font-size: 50px;
+ }
+ 
+.header a {
+    color: #b9a1a4;
+    text-decoration: none;
+ }
+.nav-img{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
+ }
+ 
+input:checked + nav {
+    width: 110%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color:#b39a86;
+    transform: translateY(0);
+    position:absolute;
+    margin-top: 100px;
+    font-size: 20px;
+    height: auto;
+   }
+   .botonhamburquesa{
+      font-size: 38px;
+      margin: 20px;
+    
+    
+ }
+  
+ .deisy {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    }
+  .deisy1 {
+     position: absolute;
+     top: 15px;
+     right: 30px;
+     width: 40px;
+     height: 20px;
+     display: none;
+     z-index: 2;
+    }
+  nav {
+   position: absolute;
+   transform: translateY(-100%);
+   transition: all 1000ms ease-in-out;
+   display:none ;
+   left: 0;
+   height: 45px;
+   
+ }
+ .container-nav {
+   display: flex;
+   justify-content: right;
+  
+}
+ .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+ }
+ .navigation ul li {
+    display: inline-block;
+    letter-spacing: 0, 40px;
+    margin: 3px;
+ }
+ 
+ .navigation ul li a {
+    display: block;
+    padding-left: 0, 2rem, 1rem;
+    transition: all 0.4s linear;
+    color: #451d22  ;
+ }
+ .navigation ul li a:hover {
+    background:#dbd9d2; 
+    }
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+    color: brown;
+    padding: 10px;
+    }
+
+.logo{
+    padding-left: 43%;
+    padding-top: -50px;
+    }
+
+
+
+
+/*Informacion de contacto*/
+aside{
+    background-color: purple;
+    width: 29%;
+    height: 450px;
+    margin-left: 6px;
+    margin-top: 15%;
+    }
+.contacto{
+    background-color: #E19249;
+    height: 100%;
+    width: 100%;
+    }
+div{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    }
+
+h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*Correo Electronico y Formulario*/
+main{
+    border: 1px;
+    border-color: #b9a1a4;
+    border-style:dotted;
+    background-color: #E19249;
+    width: 67.4%;
+    height: 430px;
+    margin-top: -32%;
+    margin-left: 32%;
+    margin-bottom: -1%;
+    
+    
+    
+}
+.contactoCorreo{
+    background-color: #E0AF38;
+    width: 100%;
+    height: 100%;
+    margin-top: -41.9px;
+    margin-left: -20px;
+    text-align: justify;
+    }
+h5, form{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/*Pie de pagina*/
+:root {
+    font-family: "Fira Sans" sans-serif;
+}
+
+footer{
+    background-color: #E6CB55;
+    color: #451d22;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+footer h4{
+    margin-bottom: 30px;
+}
+.footer-links a{
+    color: #451d22;
+    text-decoration: none;
+    padding-bottom: 200px;
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin:0 auto;
+}
+.containerfooter div{
+    height: 300px;
+    
+}
+.logofooter{
+    display: flex;
+    align-items:center;
+
+}
+.logofooter img{
+width: 190px;
+height: 190px;
+
+}
+.redessociales{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.redessociales a{
+color: #451d22;
+font-size: 24px;
+transition:color 0.3s ease;
+text-decoration: none;
+}
+.redessociales a img{
+    width: 40px;
+    height: 40px;
+}
+.redessociales a:hover, .footer-links a:hover{
+    color: #b9a1a4;
+}
+.copyright{
+    text-align: center;
+}   
+@media (max-width:767px) and (min-width:260px) {
+.containerfooter {
+        flex-direction: column;
+        gap:40px;
+    }
+.containerfooter h4{
+        font-size: 15px;
+    }
+.footer-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-wrap: pretty;
+        align-items: center;
+    }
+.footer-links h4{
+        width:60%;
+        text-align: center;
+    }
+.logofooter img{
+        width: 100px;
+        height: 100px;
+    }
+.containerfooter div{
+        height: auto;
+    }
+    }
+
+
+
+/*TituloPethouse
+h1 {margin-top: -10px;
+    background-color: #c09b7d;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+    }*/

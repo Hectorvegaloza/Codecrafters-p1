@@ -1,7 +1,4 @@
-# Codecrafters-p1
-* Colaborador: Gioko 1
-* colaboradora: Deisy 
-* Colaborador: Hector
-* Colaborador: David
-* Colaborador: Erick
+# Codecrafters
+## Aqui podemos encontrar la página de contactanos para el proyecto en grupo "codecrafters" con la iniciativa PETHOUSE
+* Made by Efbg
 

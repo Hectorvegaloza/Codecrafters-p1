@@ -28,7 +28,7 @@
  .pethouse{
    font-size: 50px;
  }
- 
+
  .header a {
     color: #b9a1a4;
     text-decoration: none;
@@ -51,12 +51,12 @@
     background-color:#b39a86;
     transform: translateY(0);
     position:absolute;
-    margin-top: 100px;
+    margin-top: 145px;
     font-size: 20px;
     height: auto;
    }
    .botonhamburquesa{
-      font-size: 38px;
+      font-size: 30px;
       margin: 20px;
     
     
@@ -80,6 +80,7 @@
      display: none;
      z-index: 2;
   }
+  
   nav {
    position: absolute;
    transform: translateY(-100%);
@@ -120,6 +121,10 @@
     background:#dbd9d2; 
  
     }
+
+
+
+    
     .imagen-total{
       margin-top: 200px;
       width: 100%;
@@ -222,7 +227,7 @@ footer h4{
 }
 .redessociales a{
 color: #451d22;
-font-size: 24px;
+font-size: 15px;
 transition:color 0.3s ease;
 text-decoration: none;
 }

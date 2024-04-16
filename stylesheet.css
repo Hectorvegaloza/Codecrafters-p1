@@ -1,3 +1,7 @@
+:root {
+    font-family: "Poppins", sans-serif;
+}
+
 footer{
     background-color: #E6CB55;
     color: #451d22;
@@ -53,7 +57,7 @@ text-decoration: none;
 }
 .copyright{
     text-align: center;
-}
+}   
 @media (max-width:767px) and (min-width:408px) {
     .containerfooter{
         flex-direction: column;

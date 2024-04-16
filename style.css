@@ -171,6 +171,9 @@ justify-self: center;
         height: 40px;
     }
     .redessociales a:hover, .footer-links a:hover{
+      color: #b9a1a4;}
+    
+      .redessociales .footer-links{
       background-color: #c09b7d;
         color: #b9a1a4;
     }
